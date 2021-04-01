@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
         <!-- Title -->
-        <title>Multipage - Marketing Home Page | Unify - Responsive Website Template</title>
+        <title>PCI - Prosperity Calgary Initiative</title>
 
         <!-- Required Meta Tags Always Come First -->
         <meta charset="utf-8">
@@ -46,7 +46,7 @@
                 <nav class="js-mega-menu navbar navbar-expand-lg g-pa-0">
                   <div class="container">
                     <!-- Logo -->
-                    <a class="navbar-brand g-pl-15 py-3" href="home-page-1.html">
+                    <a class="navbar-brand g-pl-15 py-3" href="{{route('frontend.home')}}">
                       <img class="g-width-95" src="{{asset('assets-theme/img/logo/logo.png')}}" alt="Logo">
                     </a>
                     <!-- End Logo -->
@@ -70,63 +70,30 @@
                     <div id="navBar" class="collapse navbar-collapse align-items-center flex-sm-row">
                       <ul class="navbar-nav ml-auto g-pb-30 g-pb-0--lg">
                         <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                          <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="home-page-1.html">
+                          <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="{{route('frontend.home')}}">
                             Home
                           </a>
                         </li>
 
-                        <!-- About - Submenu -->
-                        <li class="nav-item hs-has-sub-menu g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                          <a id="nav-link--page" class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="#"
-                             aria-haspopup="true"
-                             aria-expanded="false"
-                             aria-controls="nav-submenu--page">
-                            About
-                          </a>
-
-                          <!-- Submenu -->
-                          <ul id="nav-submenu--page" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-220 g-mt-18"
-                              aria-labelledby="nav-link--page">
-                            <li class="dropdown-item">
-                              <a class="nav-link g-color-text g-font-weight-600" href="page-about-1.html">About</a>
-                            </li>
-                            <li class="dropdown-item">
-                              <a class="nav-link g-color-text g-font-weight-600" href="page-services-1.html">Services</a>
-                            </li>
-                            <li class="dropdown-item">
-                              <a class="nav-link g-color-text g-font-weight-600" href="page-consultants-1.html">Consultants</a>
-                            </li>
-                            <li class="dropdown-item">
-                              <a class="nav-link g-color-text g-font-weight-600" href="page-works-1.html">Works</a>
-                            </li>
-                            <li class="dropdown-item">
-                              <a class="nav-link g-color-text g-font-weight-600" href="page-hire-us-1.html">Hire Us</a>
-                            </li>
-                            <li class="dropdown-item">
-                              <a class="nav-link g-color-text g-font-weight-600" href="page-careers-1.html">Careers</a>
-                            </li>
-                          </ul>
-                          <!-- End Submenu -->
-                        </li>
-                        <!-- End About - Submenu -->
-
+                        <!-- About -->
                         <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                          <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="page-help-1.html">
-                            Help
-                          </a>
+                            <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="{{route('frontend.about')}}">
+                              About
+                            </a>
                         </li>
+                        <!-- End About -->
                         <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                          <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="page-pricing-1.html">
-                            Pricing
-                          </a>
-                        </li>
-                        <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                          <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="page-contacts-1.html">
+                          <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="{{route('frontend.contact.us')}}">
                             Contacts
                           </a>
                         </li>
                         <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                          <a class="nav-link d-inline-block rounded g-brd-around g-brd-2 g-brd-primary g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-20 g-py-8" href="../../index.html">Main</a>
+                            <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="{{route('frontend.volunteer')}}">
+                              Volunteer
+                            </a>
+                          </li>
+                        <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                          <a class="nav-link d-inline-block rounded g-brd-around g-brd-2 g-brd-primary g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-20 g-py-8" href="{{route('frontend.donate')}}">Donate</a>
                         </li>
                       </ul>
                     </div>
@@ -148,8 +115,8 @@
 
                     <div class="col-auto g-hidden-md-down g-pr-0">
                       <div class="g-bg-main g-cursor-pointer g-px-25 g-py-20">
-                        <span class="d-block g-color-primary g-font-size-11 mb-1">(0161) 347 8854</span>
-                        <span class="d-block g-color-primary"><i class="mr-2 fa fa-phone"></i> Request a Call</span>
+                        <span class="d-block g-color-primary g-font-size-11 mb-1"><strong>(0161) 347 8854</strong></span>
+                        <span class="d-block g-color-primary"><i class="mr-2 fa fa-phone"></i><strong>Call Us</strong></span>
                       </div>
                     </div>
                   </div>
