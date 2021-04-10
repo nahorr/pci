@@ -91,9 +91,44 @@
                             <a class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="{{route('frontend.volunteer')}}">
                               Volunteer
                             </a>
-                          </li>
+                        </li>
+
+                        <!-- About - Submenu -->
+                        <li class="nav-item hs-has-sub-menu g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
+                            <a id="nav-link--page" class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="#"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            aria-controls="nav-submenu--page">
+                            Useful Links
+                            </a>
+
+                            <!-- Submenu -->
+                            <ul id="nav-submenu--page" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-220 g-mt-18"
+                                aria-labelledby="nav-link--page">
+                            <li class="dropdown-item">
+                                <a class="nav-link g-color-text g-font-weight-600" href="page-about-1.html">Calgary Today</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link g-color-text g-font-weight-600" href="page-services-1.html">What Calgarians Want</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link g-color-text g-font-weight-600" href="page-consultants-1.html">A Calgary That Works For All</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link g-color-text g-font-weight-600" href="page-works-1.html">The Man for The Job</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link g-color-text g-font-weight-600" href="page-hire-us-1.html">Candidates</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-link g-color-text g-font-weight-600" href="page-careers-1.html">Elections Calgary</a>
+                            </li>
+                            </ul>
+                            <!-- End Submenu -->
+                        </li>
+                        <!-- End About - Submenu -->
                         <li class="nav-item g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                          <a class="nav-link d-inline-block rounded g-brd-around g-brd-2 g-brd-primary g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-20 g-py-8" href="{{route('frontend.donate')}}">Donate</a>
+                            <a class="nav-link d-inline-block rounded g-brd-around g-brd-2 g-brd-primary g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-20 g-py-8" href="{{route('frontend.donate')}}">Donate</a>
                         </li>
                       </ul>
                     </div>
