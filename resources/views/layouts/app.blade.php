@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
         <!-- Title -->
-        <title>PCI - Prosperity Calgary Initiative</title>
+        <title>PCI - Prosper Calgary Initiative</title>
 
         <!-- Required Meta Tags Always Come First -->
         <meta charset="utf-8">

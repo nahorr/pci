@@ -10,15 +10,15 @@
             <div class="col-md-6 col-lg-7 g-mb-90">
               <!-- Content Info -->
               <div class="mb-5">
-                <h1 class="g-color-white g-font-weight-600 g-font-size-50 mb-3">Fast. Flexible. Leaders.</h1>
+                <h1 class="g-color-white g-font-weight-600 g-font-size-50 mb-3">Prosper Calgary Initiative</h1>
                 <p class="g-color-white g-font-size-18 g-line-height-2">Unify Marketing is a comprehensive, creation and management solution that helps business providers manage their shifts with complete accuracy. Our Unify management software Unify Marketing has earned us the position of market leaders for unscheduled business providers.</p>
               </div>
-              <a class="btn u-btn-primary g-brd-main--hover g-bg-main--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13 mr-3" href="page-services-1.html">
-                Our Services
+              <a class="btn u-btn-primary g-brd-main--hover g-bg-main--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13 mr-3" href="{{route('frontend.volunteer')}}">
+                Volunteer
                 <i class="g-pos-rel g-top-minus-1 ml-2 fa fa-angle-right"></i>
               </a>
-              <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13" href="page-works-1.html">
-                Our Works
+              <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13" href="{{route('frontend.donate')}}">
+                Donate
                 <i class="g-pos-rel g-top-minus-1 ml-2 fa fa-angle-right"></i>
               </a>
               <!-- End Content Info -->
@@ -28,7 +28,7 @@
               <!-- Join Form -->
               <form class="g-bg-white rounded g-px-30 g-py-40">
                 <div class="text-center">
-                  <h2 class="h3 g-font-weight-600 g-mb-35">Join Unify Marketing</h2>
+                  <h2 class="h3 g-font-weight-600 g-mb-35">Join PCI</h2>
                 </div>
 
                 <input class="form-control rounded g-px-20 g-py-12 mb-3" type="text" placeholder="Your Name">
@@ -71,8 +71,8 @@
           <div class="col-lg-7 g-mb-50">
             <!-- About Info -->
             <div class="mb-5">
-              <span class="d-block text-uppercase g-color-dark-light-v1 g-font-weight-500 g-font-size-13 mb-4">What is Unify Marketing?</span>
-              <h2 class="mb-4">Your Management and Comprehensive Solution</h2>
+              <span class="d-block text-uppercase g-color-dark-light-v1 g-font-weight-500 g-font-size-13 mb-4">The Man for The Job</span>
+              <h2 class="mb-4">The Man for The Job</h2>
 
               <div class="row">
                 <div class="col-sm-3">
@@ -288,7 +288,7 @@
                 <span class="align-middle u-icon-v3 u-icon-size--xs g-color-white g-bg-primary rounded-circle mr-2">
                   <i class="icon-education-102 u-line-icon-pro"></i>
                 </span>
-                <h3 class="d-inline-block g-color-white--hover g-font-weight-600 g-transition-0_3 mb-0">Branding</h3>
+                <h3 class="d-inline-block g-color-white--hover g-font-weight-600 g-transition-0_3 mb-0">Calgary Today</h3>
               </div>
 
               <span class="d-block g-color-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-transition-0_3 mb-2">The core branding</span>
@@ -313,7 +313,7 @@
                 <span class="align-middle u-icon-v3 u-icon-size--xs g-color-white g-bg-primary rounded-circle mr-2">
                   <i class="icon-education-096 u-line-icon-pro"></i>
                 </span>
-                <h3 class="d-inline-block g-color-white--hover g-font-weight-600 g-transition-0_3 mb-0">Design</h3>
+                <h3 class="d-inline-block g-color-white--hover g-font-weight-600 g-transition-0_3 mb-0">What Calgarians Want</h3>
               </div>
 
               <span class="d-block g-color-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-transition-0_3 mb-2">The core design</span>
@@ -338,7 +338,7 @@
                 <span class="align-middle u-icon-v3 u-icon-size--xs g-color-white g-bg-primary rounded-circle mr-2">
                   <i class="icon-education-121 u-line-icon-pro"></i>
                 </span>
-                <h3 class="d-inline-block g-color-white--hover g-font-weight-600 g-transition-0_3 mb-0">Development</h3>
+                <h3 class="d-inline-block g-color-white--hover g-font-weight-600 g-transition-0_3 mb-0">A Calgary That Works For All</h3>
               </div>
 
               <span class="d-block g-color-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-transition-0_3 mb-2">The core development</span>
