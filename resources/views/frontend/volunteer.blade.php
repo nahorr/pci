@@ -3,8 +3,8 @@
 
     <!-- Signup -->
     <section class="container g-pt-150 g-pb-20">
-        <div class="row">
-          <div class="col-lg-12 flex-lg-unordered g-mb-80">
+        <div class="row justify-content-md-center">
+          <div class="col-lg-8 flex-lg-unordered g-mb-80">
             @include('flash-message')
             <div class="g-brd-around g-brd-gray-light-v3 g-bg-white rounded g-px-30 g-py-50 mb-4">
               <header class="text-center mb-4">
@@ -90,7 +90,9 @@
                     <textarea name="feedback" class="form-control g-color-gray-dark-v5 g-bg-white g-bg-white--focus g-brd-gray-light-v4 g-brd-primary--focus g-resize-none rounded-3 g-py-13 g-px-15" rows="7" placeholder="Any Feedback or comment"></textarea>
                 </div>
 
-                <button class="btn btn-block u-btn-primary rounded g-py-13" type="submit"><strong>Submit Form</strong></button>
+                <button class="btn btn-block u-btn-primary rounded g-py-13" type="submit">
+                    <strong class="h4">Submit Form</strong>
+                </button>
               </form>
               <!-- End Form -->
             </div>

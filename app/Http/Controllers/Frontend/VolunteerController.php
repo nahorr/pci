@@ -53,7 +53,27 @@ class VolunteerController extends Controller
         	'updated_at' => date('Y-m-d H:i:s'),
     	]);
 
-        $site_admin = User::where('is_super', 1)->first();
+        $volunteer = collect(array(
+
+            'first_name' => $request->first_name,
+            'middle_name' => $request->middle_name,
+            'last_name' => $request->last_name,
+            'address' => $request->address,
+            'city' => $request->city,
+            'pcode' => $request->pcode,
+            'gender' => $request->gender,
+            'email' => $request->email,
+            'phone' => $request->phone,
+            'help' => $request->help,
+            'day' => $request->day,
+            'time' => $request->time,
+            'feedback' => $request->feedback,
+    		'created_at' => date('Y-m-d H:i:s'),
+        	'updated_at' => date('Y-m-d H:i:s'),
+
+        ));
+
+        $site_admin = User::where('id', 1)->first();
 
         $site_admin->notify(new VolunteerFormSubmitted($volunteer));
 

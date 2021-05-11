@@ -21,7 +21,7 @@ class VolunteerFormSubmitted extends Notification
      */
     public function __construct($volunteer)
     {
-        $this->$volunteer = $volunteer;
+        $this->volunteer = $volunteer;
     }
 
     /**
@@ -50,7 +50,7 @@ class VolunteerFormSubmitted extends Notification
             ->line('Full Name: '.$this->volunteer['last_name'])
             ->line('Email: '.$this->volunteer['email'])
             ->line('Phone #: '.$this->volunteer['phone'])
-            ->line('Feedback: '.$this->volunteer['Feedback'])
+            ->line('Feedback: '.$this->volunteer['feedback'])
             ->line('Date Submitted: '.$this->volunteer['created_at'])
             ->action('Login to View Message', route('login'))
             ->line('Thank you!');

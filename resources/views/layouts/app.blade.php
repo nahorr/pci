@@ -111,7 +111,7 @@
 
                         <!-- About - Submenu -->
                         <li class="nav-item hs-has-sub-menu g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                            <a id="nav-link--page" class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="#"
+                            <a id="nav-link--page" class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="{{route('frontend.useful.links')}}"
                             aria-haspopup="true"
                             aria-expanded="false"
                             aria-controls="nav-submenu--page">
