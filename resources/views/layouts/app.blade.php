@@ -10,13 +10,29 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
 
         <!-- Favicon -->
-        <link rel="shortcut icon" href="../../favicon.ico">
+        <link rel="shortcut icon" href="{{asset('favicon.ico')}}">
 
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600" rel="stylesheet">
+        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700%7CPlayfair+Display%7CRoboto%7CRaleway%7CSpectral%7CRubik">
 
         <!-- CSS Global Compulsory -->
         <link rel="stylesheet" href="{{asset('assets/vendor/bootstrap/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/vendor/icon-awesome/css/font-awesome.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/vendor/icon-line-pro/style.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/vendor/icon-hs/style.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/vendor/chosen/chosen.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/vendor/animate.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/vendor/hs-megamenu/src/hs.megamenu.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/vendor/hamburgers/hamburgers.min.css')}}">
+
+        <!-- CSS Unify -->
+        <link rel="stylesheet" href="{{asset('assets/css/unify-core.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/unify-components.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/unify-globals.css')}}">
+
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans:400,500,600" rel="stylesheet">
 
         <!-- CSS Implementing Plugins -->
         <link rel="stylesheet" href="{{asset('assets/vendor/icon-awesome/css/font-awesome.min.css')}}">
@@ -394,6 +410,9 @@
         <script src="{{asset('assets/vendor/dzsparallaxer/advancedscroller/plugin.js')}}"></script>
         <script src="{{asset('assets/vendor/fancybox/jquery.fancybox.min.js')}}"></script>
         <script src="{{asset('assets/vendor/slick-carousel/slick/slick.js')}}"></script>
+        <script src="{{asset('assets/vendor/appear.js')}}"></script>
+        <script src="{{asset('assets/vendor/chosen/chosen.jquery.js')}}"></script>
+        <script src="{{asset('assets/vendor/image-select/src/ImageSelect.jquery.js')}}"></script>
 
         <!-- JS Unify -->
         <script src="{{asset('assets/js/hs.core.js')}}"></script>
@@ -403,6 +422,10 @@
         <script src="{{asset('assets/js/components/hs.popup.js')}}"></script>
         <script src="{{asset('assets/js/components/hs.carousel.js')}}"></script>
         <script src="{{asset('assets/js/components/hs.go-to.js')}}"></script>
+        <script src="{{asset('assets/js/components/hs.tabs.js')}}"></script>
+        <script src="{{asset('assets/js/components/hs.select.js')}}"></script>
+        <script src="{{asset('assets/js/components/hs.counter.js')}}"></script>
+
 
         <!-- JS Customization -->
         <script src="{{asset('assets/js/custom.js')}}"></script>
@@ -436,6 +459,39 @@
 
             // initialization of go to
             $.HSCore.components.HSGoTo.init('.js-go-to');
+        });
+
+        $(document).on('ready', function () {
+            // initialization of tabs
+            $.HSCore.components.HSTabs.init('[role="tablist"]');
+
+            // initialization of counters
+            var counters = $.HSCore.components.HSCounter.init('[class*="js-counter"]');
+
+        });
+
+        $(window).on('load', function () {
+            // initialization of header
+            $.HSCore.components.HSHeader.init($('#js-header'));
+            $.HSCore.helpers.HSHamburgers.init('.hamburger');
+
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
+            event: 'hover',
+            pageContainer: $('.container'),
+            breakpoint: 991
+            });
+
+            // initialization of custom select
+            setTimeout(function() { // important in this case
+            $.HSCore.components.HSSelect.init('.js-custom-select');
+            }, 1);
+        });
+
+        $(window).on('resize', function () {
+            setTimeout(function () {
+            $.HSCore.components.HSTabs.init('[role="tablist"]');
+            }, 200);
         });
         </script>
 

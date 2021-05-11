@@ -32,8 +32,9 @@ Route::group(['namespace' => 'Frontend','as' => 'frontend.'], function () {
 
         //Volunteer
 		Route::get('/volunteer', [VolunteerController::class, 'volunteer'])->name('volunteer');
+        Route::post('/volunteer/add', [VolunteerController::class, 'create'])->name('volunteer.create');
 
-        //Volunteer
+        //Donate
 		Route::get('/donate', [DonateController::class, 'donate'])->name('donate');
 
 
