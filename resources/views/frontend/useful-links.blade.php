@@ -34,7 +34,7 @@
   <!-- End Breadcrumbs -->
 
   <!-- Works -->
-  <div class="container">
+  <div class="container" id="CalgaryToday">
     <div class="row g-pt-100 g-pb-30--lg">
       <div class="col-lg-6 g-mb-100">
         <!-- Works Info -->
@@ -92,7 +92,7 @@
 
     <hr class="g-brd-gray-light-v4 my-0">
 
-    <div class="row g-pt-100">
+    <div class="row g-pt-100" id="WhatCalgariansWant">
       <div class="col-lg-6 order-lg-2 g-mb-100">
         <!-- Works Info -->
         <div class="g-pos-rel">
@@ -158,7 +158,7 @@
 
     <hr class="g-brd-gray-light-v4 my-0">
 
-    <div class="row g-pt-100 g-pb-30--lg">
+    <div class="row g-pt-100 g-pb-30--lg" id="ACalgaryThatWorksForAll">
       <div class="col-lg-6 g-mb-100">
         <!-- Works Info -->
         <div class="g-pos-rel">
@@ -216,7 +216,7 @@
   <!-- End Works -->
 
   <!-- Promo Banner -->
-  <div class="g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-bg-cover g-bg-white-gradient-opacity-v5--after" style="background-image: url(assets/img-temp/1920x800/img3.jpg);">
+  <div id="TheManforTheJob" class="g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-bg-cover g-bg-white-gradient-opacity-v5--after" style="background-image: url(assets/img-temp/1920x800/img3.jpg);">
     <div class="container g-pos-rel g-z-index-1">
       <div class="row justify-content-between">
         <div class="col-md-5 g-py-100">
@@ -243,7 +243,7 @@
   <!-- End Promo Banner -->
 
   <!-- Articles -->
-  <div class="container g-pt-100 g-pb-70">
+  <div class="container g-pt-100 g-pb-70" id="ElectionsCalgary">
     <div class="row">
       <div class="col-lg-6 g-mb-30">
         <!-- Article -->

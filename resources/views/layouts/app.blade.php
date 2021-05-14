@@ -122,16 +122,16 @@
                             <ul id="nav-submenu--page" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-220 g-mt-18"
                                 aria-labelledby="nav-link--page">
                             <li class="dropdown-item">
-                                <a class="nav-link g-color-text g-font-weight-600" href="page-about-1.html">Calgary Today</a>
+                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#CalgaryToday">Calgary Today</a>
                             </li>
                             <li class="dropdown-item">
-                                <a class="nav-link g-color-text g-font-weight-600" href="page-services-1.html">What Calgarians Want</a>
+                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#WhatCalgariansWant">What Calgarians Want</a>
                             </li>
                             <li class="dropdown-item">
-                                <a class="nav-link g-color-text g-font-weight-600" href="page-consultants-1.html">A Calgary That Works For All</a>
+                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#ACalgaryThatWorksForAll">A Calgary That Works For All</a>
                             </li>
                             <li class="dropdown-item">
-                                <a class="nav-link g-color-text g-font-weight-600" href="page-works-1.html">The Man for The Job</a>
+                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#TheManforTheJob">The Man for The Job</a>
                             </li>
                             <li class="dropdown-item">
                                 <a class="nav-link g-color-text g-font-weight-600" href="page-hire-us-1.html">Candidates</a>
