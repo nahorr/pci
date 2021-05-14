@@ -243,9 +243,9 @@
   <!-- End Promo Banner -->
 
   <!-- Articles -->
-  <div class="container g-pt-100 g-pb-70" id="ElectionsCalgary">
+  <div class="container g-pt-100 g-pb-70">
     <div class="row">
-      <div class="col-lg-6 g-mb-30">
+      <div class="col-lg-6 g-mb-30"  id="ElectionsCalgary">
         <!-- Article -->
         <article class="g-pos-rel">
           <img class="img-fluid w-100" src="assets/img-temp/900x400/img1.jpg" alt="Image Description">
@@ -260,7 +260,7 @@
         <!-- End Article -->
       </div>
 
-      <div class="col-lg-6 g-mb-30">
+      <div class="col-lg-6 g-mb-30"  id="Candidates">
         <!-- Article -->
         <article class="g-pos-rel">
           <img class="img-fluid w-100" src="assets/img-temp/900x400/img2.jpg" alt="Image Description">

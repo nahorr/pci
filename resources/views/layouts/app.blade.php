@@ -134,10 +134,10 @@
                                 <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#TheManforTheJob">The Man for The Job</a>
                             </li>
                             <li class="dropdown-item">
-                                <a class="nav-link g-color-text g-font-weight-600" href="page-hire-us-1.html">Candidates</a>
+                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#Candidates">Candidates</a>
                             </li>
                             <li class="dropdown-item">
-                                <a class="nav-link g-color-text g-font-weight-600" href="page-careers-1.html">Elections Calgary</a>
+                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#ElectionsCalgary">Elections Calgary</a>
                             </li>
                             </ul>
                             <!-- End Submenu -->
