@@ -11,4 +11,14 @@ class DonateController extends Controller
     {
         return view('frontend.donate');
     }
+
+    public function payment(Request $request)
+    {
+
+        $amount = $request->amount * 100;
+
+        $description = $request->description;
+
+        return view('frontend.donate.payment', compact('amount', 'description'));
+    }
 }

@@ -235,56 +235,34 @@
                       <ul class="list-unstyled mb-0">
                         <li>
                           <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="{{route('frontend.useful.links')}}#TheManforTheJob">
-                            <span>Insider Information</span>
+                            <span>Teddy Chibunna</span>
                             <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
                           </a>
                         </li>
-                        <li>
-                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="#">
-                            <span>Information for Insiders</span>
-                            <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
-                          </a>
-                        </li>
+
 
                       </ul>
                       <!-- End Links -->
                     </div>
 
                     <div class="col-6 col-md-3 g-mb-30">
-                      <h3 class="h6 g-color-white text-uppercase">Unify Special</h3>
+                      <h3 class="h6 g-color-white text-uppercase">Elections Calgary</h3>
 
                       <!-- Links -->
                       <ul class="list-unstyled mb-0">
                         <li>
-                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="#">
-                            <span>Unify Online</span>
+                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="{{route('frontend.useful.links')}}#ElectionsCalgary">
+                            <span>Elections Calgary Website</span>
                             <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
                           </a>
                         </li>
                         <li>
-                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="#">
-                            <span>Unify Express</span>
+                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="{{route('frontend.useful.links')}}#ElectionsCalgary">
+                            <span>Third Party Advertising Guidlines</span>
                             <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
                           </a>
                         </li>
-                        <li>
-                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="#">
-                            <span>Unify Finance</span>
-                            <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="#">
-                            <span>Unify Business</span>
-                            <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="#">
-                            <span>Unify Ads</span>
-                            <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
-                          </a>
-                        </li>
+
                       </ul>
                       <!-- End Links -->
                     </div>
@@ -294,25 +272,25 @@
                       <ul class="list-inline">
                         <li class="list-inline-item mb-1">
                           <a class="u-icon-v2 u-icon-size--xs g-brd-gray-light-v2 g-brd-primary--hover g-color-gray-light-v1 g-color-primary--hover rounded" href="#">
-                            <i class="fa fa-android"></i>
+                            <i class="fa fa-facebook"></i>
                           </a>
                         </li>
                         <li class="list-inline-item mb-1">
                           <a class="u-icon-v2 u-icon-size--xs g-brd-gray-light-v2 g-brd-primary--hover g-color-gray-light-v1 g-color-primary--hover rounded" href="#">
-                            <i class="fa fa-apple"></i>
+                            <i class="fa fa-twitter"></i>
                           </a>
                         </li>
                         <li class="list-inline-item mb-1">
                           <a class="u-icon-v2 u-icon-size--xs g-brd-gray-light-v2 g-brd-primary--hover g-color-gray-light-v1 g-color-primary--hover rounded" href="#">
-                            <i class="fa fa-windows"></i>
+                            <i class="fa fa-instagram"></i>
                           </a>
                         </li>
                       </ul>
 
                       <ul class="list-unstyled mb-4">
                         <li>
-                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="#">
-                            <span>How to Install Apps</span>
+                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="{{route('frontend.contact.us')}}">
+                            <span>Contact Us</span>
                             <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
                           </a>
                         </li>

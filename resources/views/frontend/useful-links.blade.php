@@ -2,36 +2,13 @@
 @section('content')
 
 <!-- Promo Banner -->
-<div class="g-min-height-450 g-flex-centered g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-pt-80" style="background-image: url(assets/img-temp/1920x800/img2.jpg);">
+<div class="g-min-height-450 g-flex-centered g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-pt-80" style="background-image: url(assets/img/members.jpg);">
     <div class="container g-pos-rel g-z-index-1">
       <span class="d-block text-uppercase g-color-primary g-font-weight-500 g-font-size-13 mb-4"></span>
       <h2 class="h1 g-color-white g-font-size-60--lg mb-0">Useful Links</h2>
     </div>
   </div>
   <!-- End Promo Banner -->
-
-  <!-- Breadcrumbs -->
-  <section class="g-brd-bottom g-brd-gray-light-v4 g-py-30">
-    <div class="container">
-      <ul class="d-flex justify-content-between u-list-inline">
-        <li class="list-inline-item g-mr-15">
-          <a class="u-link-v5 g-color-text g-pr-10" href="#">Home</a>
-          <i class="g-color-gray-light-v2 g-ml-5 fa fa-angle-right"></i>
-        </li>
-        <li class="list-inline-item g-mr-15">
-          <a class="u-link-v5 g-color-text g-pr-10" href="#">Pages</a>
-          <i class="g-color-gray-light-v2 g-ml-5 fa fa-angle-right"></i>
-        </li>
-        <li class="list-inline-item g-color-primary">
-          <span>Works</span>
-        </li>
-        <li class="list-inline-item ml-auto">
-          <a class="u-link-v5 g-brd-around g-brd-gray-light-v4 g-brd-primary--hover g-color-text g-color-primary--hover g-font-weight-500 rounded g-px-30 g-py-10" href="page-hire-us-1.html">Hire Us</a>
-        </li>
-      </ul>
-    </div>
-  </section>
-  <!-- End Breadcrumbs -->
 
   <!-- Works -->
   <div class="container" id="CalgaryToday">
@@ -47,25 +24,13 @@
                data-arrow-left-classes="fa fa-angle-left"
                data-arrow-right-classes="fa fa-angle-right g-ml-30">
             <div class="js-slide">
-              <img class="img-fluid" src="assets/img-temp/900x600/img3.jpg" alt="Image Description">
+              <img class="img-fluid" src="{{asset('assets/img/calgary-today.jpg')}}" alt="Image Description">
             </div>
-            <div class="js-slide">
-              <img class="img-fluid" src="assets/img-temp/900x600/img4.jpg" alt="Image Description">
-            </div>
+
           </div>
           <!-- End Carousel -->
 
-          <div class="g-pos-abs g-bottom-minus-30 g-right-0 g-right-minus-20--sm">
-            <a class="js-fancybox d-flex g-text-underline--none--hover" href="javascript:;"
-               data-src="//www.youtube.com/embed/BNpiwOkKIJ8?autoplay=1"
-               data-speed="350"
-               data-caption="Video Popup">
-              <span class="g-color-main g-font-weight-500 g-font-size-13 mt-auto mr-4">Watch Transforming Video</span>
-              <span class="u-icon-v3 u-icon-size--lg g-color-white g-bg-primary g-bg-main--hover rounded g-pos-rel g-z-index-1 g-cursor-pointer">
-                <i class="g-font-size-17 g-pos-rel g-left-2 fa fa-play"></i>
-              </span>
-            </a>
-          </div>
+
         </div>
         <!-- End Works Info -->
       </div>
@@ -103,26 +68,11 @@
                data-arrows-classes="u-arrow-v1 g-width-20 g-height-20 g-pos-abs g-bottom-minus-30 g-left-0 g-color-main g-color-primary--hover"
                data-arrow-left-classes="fa fa-angle-left"
                data-arrow-right-classes="fa fa-angle-right g-ml-30">
-            <div class="js-slide">
-              <img class="img-fluid" src="assets/img-temp/900x600/img5.jpg" alt="Image Description">
-            </div>
-            <div class="js-slide">
-              <img class="img-fluid" src="assets/img-temp/900x600/img6.jpg" alt="Image Description">
-            </div>
+               <div class="js-slide">
+                <img class="img-fluid" src="{{asset('assets/img/what-calgarians-want.jpg')}}" alt="Image Description">
+              </div>
           </div>
           <!-- End Carousel -->
-
-          <div class="g-pos-abs g-bottom-minus-30 g-right-0 g-right-minus-20--sm">
-            <a class="js-fancybox d-flex g-text-underline--none--hover" href="javascript:;"
-               data-src="//www.youtube.com/embed/BNpiwOkKIJ8?autoplay=1"
-               data-speed="350"
-               data-caption="Video Popup">
-              <span class="g-color-main g-font-weight-500 g-font-size-13 mt-auto mr-4"></span>
-              <span class="u-icon-v3 u-icon-size--lg g-color-white g-bg-primary g-bg-main--hover rounded g-pos-rel g-z-index-1 g-cursor-pointer">
-                <i class="g-font-size-17 g-pos-rel g-left-2 fa fa-play"></i>
-              </span>
-            </a>
-          </div>
         </div>
         <!-- End Works Info -->
       </div>
@@ -169,26 +119,13 @@
                data-arrows-classes="u-arrow-v1 g-width-20 g-height-20 g-pos-abs g-bottom-minus-30 g-left-0 g-color-main g-color-primary--hover"
                data-arrow-left-classes="fa fa-angle-left"
                data-arrow-right-classes="fa fa-angle-right g-ml-30">
-            <div class="js-slide">
-              <img class="img-fluid" src="assets/img-temp/900x600/img4.jpg" alt="Image Description">
-            </div>
-            <div class="js-slide">
-              <img class="img-fluid" src="assets/img-temp/900x600/img6.jpg" alt="Image Description">
-            </div>
+               <div class="js-slide">
+                <img class="img-fluid" src="{{asset('assets/img/calgary-that-works.jpg')}}" alt="Image Description">
+              </div>
+
           </div>
           <!-- End Carousel -->
 
-          <div class="g-pos-abs g-bottom-minus-30 g-right-0 g-right-minus-20--sm">
-            <a class="js-fancybox d-flex g-text-underline--none--hover" href="javascript:;"
-               data-src="//www.youtube.com/embed/BNpiwOkKIJ8?autoplay=1"
-               data-speed="350"
-               data-caption="Video Popup">
-              <span class="g-color-main g-font-weight-500 g-font-size-13 mt-auto mr-4">Watch Building Community Video</span>
-              <span class="u-icon-v3 u-icon-size--lg g-color-white g-bg-primary g-bg-main--hover rounded g-pos-rel g-z-index-1 g-cursor-pointer">
-                <i class="g-font-size-17 g-pos-rel g-left-2 fa fa-play"></i>
-              </span>
-            </a>
-          </div>
         </div>
         <!-- End Works Info -->
       </div>
@@ -216,26 +153,28 @@
   <!-- End Works -->
 
   <!-- Promo Banner -->
-  <div id="TheManforTheJob" class="g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-bg-cover g-bg-white-gradient-opacity-v5--after" style="background-image: url(assets/img-temp/1920x800/img3.jpg);">
+  <div id="TheManforTheJob" class="g-bg-img-hero g-bg-pos-top-center g-bg-size-cover g-bg-cover g-bg-white-gradient-opacity-v5--after" style="background-image: url({{asset('assets/img/teddy-chibunna.jpg')}});">
     <div class="container g-pos-rel g-z-index-1">
       <div class="row justify-content-between">
-        <div class="col-md-5 g-py-100">
+        <div class="col-md-9 g-py-100">
           <div class="mb-5">
             <span class="d-block text-uppercase g-color-dark-light-v1 g-font-weight-500 g-font-size-13 mb-4"><strong>The Man for the Job</strong></span>
-            <h2 class="mb-4">Teddy Chibunna Ogbonna <br> https://teddy4calgary.ca/teddy%E2%80%99s-vision</h2>
-            <p class="g-font-size-16 g-line-height-2">This is where we sit down, grab a cup of coffee and dial in the details. Understanding the task at hand and ironing out the wrinkles is key.</p>
-          </div>
+            <h2 class="mb-4">Teddy Chibunna Ogbonna</h2>
+            <p class="g-font-size-16 g-line-height-2">
+                <strong>Teddy has two children, married and is the last of ten siblings, orphaned at the age of seven. He arrived Canada in 2004 to participate in the World Youth Centre pilot project at the University of Toronto as one of the curriculum consultants and keynote speakers.  In 2006, he returned to Canada as an intern in the office of a former City of Toronto councilor- Adam Giambrone. In 2008, he moved to Calgary, which he loves and is proud to call his home.
+                Teddy graduated from the Institute of Management and Technology (IMT) Enugu, Nigeria with Higher National Diploma in Applied Arts in 1992 and from the University of Calgary’ with double majors in Law and Society and Political science in 2019.
 
-          <span class="d-inline-block g-font-weight-600 text-uppercase mr-4">Call Us</span>
-          <a class="btn u-btn-outline-primary g-brd-2 g-color-main g-color-primary--hover g-bg-main--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13" href="#">
-            (0161) 347 8854
-            <i class="g-pos-rel g-top-minus-1 ml-2 fa fa-angle-right"></i>
-          </a>
-          <span class="d-inline-block g-font-weight-600 text-uppercase mx-4">or</span>
-          <a class="btn u-btn-black g-brd-primary--hover g-color-primary g-color-main--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13" href="page-hire-us-1.html">
-            Hire Us
-            <i class="g-pos-rel g-top-minus-1 ml-2 fa fa-angle-right"></i>
-          </a>
+                Teddy is widely travelled, has worked with Shell Petroleum and Schlumberger as a Contract Safety Officer in Africa. Worked for the City of Calgary as Recreation Instructor/Leader, worked for few security and real estate investment firms in Canada on leadership positions and was on the board in his previous riding of Calgary McCall under the Progressive Conservative party.
+
+                Teddy has co-owned a small business in Calgary. His overall experience transcends the not-for profit development consulting on issues of transparency, accountability and good governance policies. The energy sector-oil and gas, coaching, customer service, communication, environment, human rights activism, community development and planning, marketing and social entrepreneurial activities/youth work. He enjoys volunteering and helping young people to build leadership qualities through sports and capacity building workshops.
+
+                Teddy is a published author, was the Vice Chair of Human Rights information Network Nigeria, via The British Council. He has spoken at high levels stakeholders meeting with the international systems, consulted with governments at all levels in Africa, Europe and North America, i.e. The United States Government, British Government,  the United Nations (UNIC, UNICEF, UNDP) The World Bank, The British Council, Goethe Institute, and is involved in a number of non-profit initiatives locally in Calgary and abroad.
+
+                He founded an international Youth organization (Youth for Transparency International/African Youth For Transparency) which has an ECOSOC status with the United Nations and envisions a world where young people are integrated in decision making at all levels of development and policy making as change makers to social challenges and won the Nelson Mandela & Gracia global Innovation Award in 2008. YTI operates in 10 countries independently.
+
+                Teddy’s hobbies are coaching kids basketball and soccer for free, reading, biking, swimming, hiking, golfing, working out and spending time with family and friends.</strong>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -248,10 +187,10 @@
       <div class="col-lg-6 g-mb-30"  id="ElectionsCalgary">
         <!-- Article -->
         <article class="g-pos-rel">
-          <img class="img-fluid w-100" src="assets/img-temp/900x400/img1.jpg" alt="Image Description">
+          <img class="img-fluid w-100" src="{{asset('assets/img/elections-calgary.jpg')}}" alt="Image Description">
           <div class="g-bg-white-gradient-opacity-v1 g-pos-abs g-bottom-0 g-left-0 g-right-0 g-pa-30">
-            <h3><a class="u-link-v5 g-color-white g-color-primary--hover" href="#">Elections Calgary</a></h3>
-            <a class="u-link-v6 g-color-white g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="page-hire-us-1.html">
+            <h3><a class="u-link-v5 g-color-white g-color-primary--hover" href="https://www.calgary.ca/election.html" target="_blank">Elections Calgary</a></h3>
+            <a class="u-link-v6 g-color-white g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="https://www.calgary.ca/election.html" target="_blank">
               Read More
               <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
             </a>
@@ -263,10 +202,10 @@
       <div class="col-lg-6 g-mb-30"  id="Candidates">
         <!-- Article -->
         <article class="g-pos-rel">
-          <img class="img-fluid w-100" src="assets/img-temp/900x400/img2.jpg" alt="Image Description">
+          <img class="img-fluid w-100" src="{{asset('assets/img/third-party-advertising.jpg')}}" alt="Image Description">
           <div class="g-bg-white-gradient-opacity-v1 g-pos-abs g-bottom-0 g-left-0 g-right-0 g-pa-30">
-            <h3><a class="u-link-v5 g-color-white g-color-primary--hover" href="#">Third Part Advertising Guidelines for Local Elections in Alberta</a></h3>
-            <a class="u-link-v6 g-color-white g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="page-hire-us-1.html">
+            <h3><a class="u-link-v5 g-color-white g-color-primary--hover" href="https://open.alberta.ca/dataset/630cdfa7-e052-4553-a073-6388097e744c/resource/256be2ba-2bf5-4f9d-ad20-2571a047387d/download/ma-third-party-advertising-guidelines-local-elections-alberta-2021.pdf" target="_blank">Third Part Advertising Guidelines for Local Elections in Alberta</a></h3>
+            <a class="u-link-v6 g-color-white g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="https://open.alberta.ca/dataset/630cdfa7-e052-4553-a073-6388097e744c/resource/256be2ba-2bf5-4f9d-ad20-2571a047387d/download/ma-third-party-advertising-guidelines-local-elections-alberta-2021.pdf" target="_blank">
               Read More
               <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
             </a>
@@ -277,119 +216,4 @@
     </div>
   </div>
   <!-- End Articles -->
-
-  <!-- Clients -->
-  <div class="container g-pb-100">
-    <!-- Heading -->
-    <div class="g-overflow-hidden text-center">
-      <div class="u-info-v10-1">
-        <h3 class="h6 g-font-weight-600 text-center text-uppercase mb-0">Trusted By</h3>
-      </div>
-    </div>
-    <!-- End Heading -->
-
-    <div id="carouselCus1" class="js-carousel g-max-width-645 mx-auto g-pt-50 g-pb-35"
-         data-infinite="true"
-         data-fade="true"
-         data-items="1"
-         data-autoplay="true"
-         data-speed="10000"
-         data-nav-for="#carouselCus3">
-      <div class="js-slide">
-        <blockquote class="g-color-dark-light-v1 g-font-weight-500 g-font-size-22 text-center">
-          <span class="g-color-primary g-font-size-26">"</span>
-            The complete package for me. Plenty to choose from and thanks for the unlimited updates.
-          <span class="g-color-primary g-font-size-26">"</span>
-        </blockquote>
-      </div>
-
-      <div class="js-slide">
-        <blockquote class="g-color-dark-light-v1 g-font-weight-500 g-font-size-22 text-center">
-          <span class="g-color-primary g-font-size-26">"</span>
-            Hi there purchased a couple of days ago and the site looks great, big thanks to the htmlstream guys, they gave me some great help with some fiddly setup issues.
-          <span class="g-color-primary g-font-size-26">"</span>
-        </blockquote>
-      </div>
-
-      <div class="js-slide">
-        <blockquote class="g-color-dark-light-v1 g-font-weight-500 g-font-size-22 text-center">
-          <span class="g-color-primary g-font-size-26">"</span>
-            Dear Htmlstream team, I just bought the Unify template some weeks ago. The template is really nice and offers quite a large set of options.
-          <span class="g-color-primary g-font-size-26">"</span>
-        </blockquote>
-      </div>
-
-      <div class="js-slide">
-        <blockquote class="g-color-dark-light-v1 g-font-weight-500 g-font-size-22 text-center">
-          <span class="g-color-primary g-font-size-26">"</span>
-            A great template, with great examples and good documentation. An easy 5 stars.
-          <span class="g-color-primary g-font-size-26">"</span>
-        </blockquote>
-      </div>
-
-      <div class="js-slide">
-        <blockquote class="g-color-dark-light-v1 g-font-weight-500 g-font-size-22 text-center">
-          <span class="g-color-primary g-font-size-26">"</span>
-            I'm very impressed with the theme and customer support! Thanks <span class="g-color-primary g-font-size-26">"</span>
-        </blockquote>
-      </div>
-
-      <div class="js-slide">
-        <blockquote class="g-color-dark-light-v1 g-font-weight-500 g-font-size-22 text-center">
-          <span class="g-color-primary g-font-size-26">"</span>
-            Great theme maker. I wish they would create more themes.
-          <span class="g-color-primary g-font-size-26">"</span>
-        </blockquote>
-      </div>
-
-      <div class="js-slide">
-        <blockquote class="g-color-dark-light-v1 g-font-weight-500 g-font-size-22 text-center">
-          <span class="g-color-primary g-font-size-26">"</span>
-            New Unify template looks great!. Love the multiple layout examples for Shortcodes and the new Show code Copy code snippet feature is brilliant.
-          <span class="g-color-primary g-font-size-26">"</span>
-        </blockquote>
-      </div>
-    </div>
-
-    <div id="carouselCus3" class="js-carousel u-carousel-v12"
-         data-infinite="true"
-         data-is-thumbs="true"
-         data-autoplay="true"
-         data-speed="10000"
-         data-center-mode="true"
-         data-slides-show="5"
-         data-nav-for="#carouselCus1">
-      <div class="js-slide u-block-hover">
-        <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_5 g-opacity-1--hover g-opacity-1--active g-cursor-pointer" src="assets/img-temp/200x100/img1.png" alt="Image description">
-      </div>
-
-      <div class="js-slide u-block-hover">
-        <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_5 g-opacity-1--hover g-opacity-1--active g-cursor-pointer" src="assets/img-temp/200x100/img2.png" alt="Image description">
-      </div>
-
-      <div class="js-slide u-block-hover">
-        <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_5 g-opacity-1--hover g-opacity-1--active g-cursor-pointer" src="assets/img-temp/200x100/img3.png" alt="Image description">
-      </div>
-
-      <div class="js-slide u-block-hover">
-        <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_5 g-opacity-1--hover g-opacity-1--active g-cursor-pointer" src="assets/img-temp/200x100/img4.png" alt="Image description">
-      </div>
-
-      <div class="js-slide u-block-hover">
-        <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_5 g-opacity-1--hover g-opacity-1--active g-cursor-pointer" src="assets/img-temp/200x100/img5.png" alt="Image description">
-      </div>
-
-      <div class="js-slide u-block-hover">
-        <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_5 g-opacity-1--hover g-opacity-1--active g-cursor-pointer" src="assets/img-temp/200x100/img7.png" alt="Image description">
-      </div>
-
-      <div class="js-slide u-block-hover">
-        <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_5 g-opacity-1--hover g-opacity-1--active g-cursor-pointer" src="assets/img-temp/200x100/img8.png" alt="Image description">
-      </div>
-    </div>
-  </div>
-  <!-- End Clients -->
-
-
-
   @endsection
