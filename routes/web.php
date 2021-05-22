@@ -30,6 +30,7 @@ Route::group(['namespace' => 'Frontend','as' => 'frontend.'], function () {
 
     //Contact Us
     Route::get('/contact-us', [ContactUsController::class, 'contactUs'])->name('contact.us');
+    Route::post('/contact-us/create', [ContactUsController::class, 'create'])->name('contact.us.create');
 
     //Volunteer
     Route::get('/volunteer', [VolunteerController::class, 'volunteer'])->name('volunteer');

@@ -6,22 +6,21 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Notifications\Notification;
-use App\Models\Volunteer;
 
-class VolunteerFormSubmitted extends Notification
+class ContactFormSubmitted extends Notification
 {
     use Queueable;
 
-    protected $volunteer;
+    protected $contact_us;
 
     /**
      * Create a new notification instance.
      *
      * @return void
      */
-    public function __construct($volunteer)
+    public function __construct($contact_us)
     {
-        $this->volunteer = $volunteer;
+        $this->contact_us = $contact_us;
     }
 
     /**
@@ -44,16 +43,15 @@ class VolunteerFormSubmitted extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
-            ->subject('New Volunteer Form Submitted')
-            ->line('A new volunteer form has been submitted')
-            ->line('Full Name: '.$this->volunteer['first_name'])
-            ->line('Full Name: '.$this->volunteer['last_name'])
-            ->line('Email: '.$this->volunteer['email'])
-            ->line('Phone #: '.$this->volunteer['phone'])
-            ->line('Feedback: '.$this->volunteer['feedback'])
-            ->line('Date Submitted: '.$this->volunteer['created_at'])
-            //->action('Login to View Message', route('login'))
-            ->line('Thank you!');
+                ->subject('New Contact Us Form Submitted')
+                ->line('A new contact us form has been submitted')
+                ->line('Email: '.$this->contact_us['email'])
+                ->line('Phone #: '.$this->contact_us['phone'])
+                ->line('Subject: '.$this->contact_us['subject'])
+                ->line('Message: '.$this->contact_us['msg'])
+                ->line('Date Submitted: '.$this->contact_us['created_at'])
+                //->action('Login to View Message', route('login'))
+                ->line('Thank you!');
     }
 
     /**

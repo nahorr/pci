@@ -2,7 +2,7 @@
 @section('content')
 
     <!-- Promo Block -->
-    <section class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll loaded dzsprx-readyall g-bg-cover g-bg-black-opacity-0_8--after" data-options='{direction: "fromtop", animation_duration: 25, direction: "reverse"}'>
+    {{-- <section class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll loaded dzsprx-readyall g-bg-cover g-bg-black-opacity-0_8--after" data-options='{direction: "fromtop", animation_duration: 25, direction: "reverse"}'>
         <!-- Promo Block - Parallax Video -->
         <div class="dzsparallaxer--target" style="width: 100%; height: 130%;" data-forcewidth_ratio="1.77">
           <div class="js-bg-video g-pos-abs w-100 h-100" data-hs-bgv-type="vimeo" data-hs-bgv-id="167434033" data-hs-bgv-loop="1"></div>
@@ -43,7 +43,7 @@
           </div>
         </div>
         <!-- Promo Block Content -->
-    </section>
+    </section> --}}
     <!-- End Promo Block -->
 
     <section class="g-bg-gray-light-v5">
@@ -145,19 +145,10 @@
             </div>
             <div class="masonry-grid-item col-sm-6 col-lg-3 g-mb-30">
                 <div data-parallaxanimation='[{property: "transform", value:" translate3d(0,px,0)", initial:"-25", mid:"0", final:"25"}]'>
-                    <img class="img-fluid w-100" src="../../assets/img-temp/350x230/img5.jpg" alt="Image Description">
+                    <img class="img-fluid w-100" src="{{asset('assets/img/about-2.jpg')}}" alt="Image Description">
                 </div>
             </div>
-            {{-- <div class="masonry-grid-item col-sm-6 col-lg-3 mt-5 g-mb-30">
-              <div data-parallaxanimation='[{property: "transform", value:" translate3d(0,px,0)", initial:"25", mid:"0", final:"-25"}]'>
-                <img class="img-fluid w-100" src="../../assets/img-temp/400x570/img1.jpg" alt="Image Description">
-              </div>
-            </div>
-            <div class="masonry-grid-item col-sm-6 col-lg-3 g-mb-30">
-              <div data-parallaxanimation='[{property: "transform", value:" translate3d(0,px,0)", initial:"-45", mid:"0", final:"45"}]'>
-                <img class="img-fluid w-100" src="../../assets/img-temp/350x230/img6.jpg" alt="Image Description">
-              </div>
-            </div> --}}
+
           </div>
           <!-- End Masonry -->
 
@@ -177,7 +168,7 @@
             </div>
             <div class="masonry-grid-item col-sm-6 col-lg-3 g-mb-30">
                 <div data-parallaxanimation='[{property: "transform", value:" translate3d(0,px,0)", initial:"-25", mid:"0", final:"25"}]'>
-                    <img class="img-fluid w-100" src="../../assets/img-temp/350x230/img5.jpg" alt="Image Description">
+                    <img class="img-fluid w-100" src="{{asset('assets/img/about-1.jpg')}}" alt="Image Description">
                 </div>
             </div>
           <!-- End Counters -->
@@ -185,12 +176,12 @@
     </div>
 
     <!-- Hero Info -->
-    <section class="g-bg-cover g-bg-size-cover g-bg-black-opacity-0_4--after g-py-120" style="background-image: url(../../assets/img-temp/1920x800/img2.jpg);">
+    <section class="g-bg-cover g-bg-size-cover g-bg-black-opacity-0_4--after g-py-120" style="background-image: url({{asset('assets/img/join-us.jpg')}});">
     <div class="container text-center g-color-white g-pos-rel g-z-index-1">
         <div class="row justify-content-center">
         <div class="col-md-8">
             <h2 class="g-font-weight-300 g-font-size-45 g-mb-20">Prosper <span class="g-color-primary g-font-weight-600">Calgary</span> Initiative (PCI)</h2>
-            <p class="lead g-color-white-opacity-0_8 g-font-weight-300 g-mb-50">Look no further. You came to the right place!</p>
+            <p class="lead g-color-white-opacity-0_8 g-font-weight-300 g-mb-50">Making a difference!</p>
             <a class="btn btn-xl u-btn-primary g-font-weight-600 g-font-size-default g-px-35" href="{{route('frontend.volunteer')}}">Join Us</a>
         </div>
         </div>
