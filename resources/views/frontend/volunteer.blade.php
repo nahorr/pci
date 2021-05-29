@@ -149,26 +149,5 @@
     </section>
     <!-- End Signup -->
 
-    <!-- Call to Action -->
-    <section class="g-bg-primary">
-    <div class="container g-pt-25 g-pb-10">
-        <div class="row justify-content-between align-items-center">
-        <div class="col-sm-6 col-md-8 g-mb-15">
-            <h3 class="h4 g-color-white g-font-weight-300 text-uppercase mb-0">Subscribe to our weekly <span class="g-font-weight-600">Newsletter</span></h3>
-        </div>
-
-        <div class="col-sm-6 col-md-4 g-mb-15">
-            <div class="input-group rounded-0">
-            <input class="form-control g-brd-white g-color-white g-placeholder-white g-bg-transparent rounded-0 g-px-15 g-py-13" type="email" placeholder="Enter your email ...">
-            <span class="input-group-addon u-input-group-addon g-width-45 g-brd-white g-color-white">
-                <i class="icon-communication-062 u-line-icon-pro"></i>
-                </span>
-            </div>
-        </div>
-        </div>
-    </div>
-    </section>
-    <!-- End Call to Action -->
-
 
 @endsection

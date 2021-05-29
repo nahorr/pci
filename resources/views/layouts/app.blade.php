@@ -206,29 +206,12 @@
                             <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
                           </a>
                         </li>
-                        <li>
-                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="page-hire-us-1.html">
-                            Hire Unify Marketing
-                            <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="page-apply-1.html">
-                            Apply for a Job
-                            <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
-                          </a>
-                        </li>
-                        <li>
-                          <a class="u-link-v6 g-color-text g-color-primary--hover g-font-weight-500 g-text-underline--none--hover g-py-3" href="page-contacts-1.html">
-                            Contacts
-                            <span class="u-link-v6-arrow g-font-size-18">&rightarrow;</span>
-                          </a>
-                        </li>
+
                       </ul>
                       <!-- End Links -->
                     </div>
 
-                    <div class="col-6 col-md-3 g-mb-30">
+                    {{-- <div class="col-6 col-md-3 g-mb-30">
                       <h3 class="h6 g-color-white text-uppercase">The Man for The Job</h3>
 
                       <!-- Links -->
@@ -243,7 +226,7 @@
 
                       </ul>
                       <!-- End Links -->
-                    </div>
+                    </div> --}}
 
                     <div class="col-6 col-md-3 g-mb-30">
                       <h3 class="h6 g-color-white text-uppercase">Elections Calgary</h3>

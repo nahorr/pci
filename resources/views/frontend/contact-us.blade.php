@@ -51,7 +51,7 @@
           <div class="row justify-content-center">
             <div class="col-lg-9">
                 @include('flash-message')
-              <h3 class="g-color-black g-font-weight-600 text-center mb-5">Who are you, and how can we help?</h3>
+              <h3 class="g-color-black g-font-weight-600 text-center mb-5">Please let us know you, and how you can help.</h3>
               <form method="POST" action="{{route('frontend.contact.us.create')}}">
                 @csrf()
                 <div class="row">
