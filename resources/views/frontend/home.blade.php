@@ -19,7 +19,10 @@
                   are oriented for the benefit of all Calgarians.
                 </p>
               </div>
-
+              <a class="btn u-btn-primary g-brd-main--hover g-bg-main--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13 mr-3" href="{{route('frontend.volunteer')}}">
+                Volunteer
+                <i class="g-pos-rel g-top-minus-1 ml-2 fa fa-angle-right"></i>
+              </a>
               <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13" href="{{route('frontend.donate')}}">
                 Donate
                 <i class="g-pos-rel g-top-minus-1 ml-2 fa fa-angle-right"></i>
@@ -32,6 +35,7 @@
         </div>
       </div>
       <!-- End Promo Block -->
+
 
     <div class="dzsparallaxer auto-init height-is-based-on-content g-bg-gray-gradient-opacity-v1" data-options='{direction: "reverse", animation_duration: "200"}'>
         <div class="dzsparallaxer--target" style="width: 100%; height: 130%;">
@@ -47,7 +51,6 @@
                     <h2 class="h2 g-color-black g-font-weight-600 mb-4">Prosper Calgary Initiative (PCI)</h2>
                     <p class="lead mb-5"> has a vision to inspire, support, and project excellent leadership
                         in public office aspirants in Alberta, particularly, the City of Calgary.</p>
-                    <a class="btn btn-xl u-btn-outline-black g-font-weight-600 g-font-size-default g-px-35" href="{{route('frontend.volunteer')}}">Volunteer</a>
                     <!-- End Heading -->
                 </div>
             </div>
@@ -70,7 +73,6 @@
                     <span class="d-block g-color-primary g-font-size-17 text-uppercase mb-4"><strong>Our Mission Statement </strong></span>
                     <h2 class="h2 g-color-black g-font-weight-600 mb-4">Our mission is to Prosper Calgary Initiative (PCI)</h2>
                     <p class="lead mb-5"> is to identify candidates of impeccable leadership ability, experience, and qualification for election into public offices in the Province of Alberta. We project and support worthy candidates for election into public office by engaging in political advertising to promote our selected candidates.</p>
-                    <a class="btn btn-xl u-btn-outline-black g-font-weight-600 g-font-size-default g-px-35" href="{{route('frontend.volunteer')}}">Volunteer</a>
                     <!-- End Heading -->
                 </div>
             </div>
