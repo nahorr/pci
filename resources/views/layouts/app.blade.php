@@ -306,7 +306,7 @@
                 </div>
               </div>
 
-              <div class="g-bg-dark-light-v1">
+              <div class="g-bg-light-v1">
                 <div class="container g-pt-30">
                   <div class="row align-items-center">
                     <div class="col-md-4 text-center text-md-left g-mb-30">
@@ -315,17 +315,17 @@
                         <img class="g-width-95" src="{{asset('assets-theme/img/logo/logo.png')}}" alt="Logo">
                       </a>
                       <!-- End Logo -->
-                      <p class="d-inline-block align-middle g-font-size-13 mb-0">&copy; 2021 Prosper Calgary Initiative.<br>All Rights Reserved.</p>
+                      <p class="d-inline-block align-middle g-font-size-13 mb-0 g-color-dark-light-v1">&copy; 2021 Prosper Calgary Initiative.<br>All Rights Reserved.</p>
                     </div>
 
                     <div class="col-md-4 g-mb-30">
                       <!-- Social Icons -->
                       <ul class="list-inline text-center mb-0">
                         <li class="list-inline-item">
-                          <a class="u-icon-v3 u-icon-size--sm g-color-gray-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-facebook"></i></a>
+                          <a class="u-icon-v3 u-icon-size--sm g-color-dark-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li class="list-inline-item">
-                          <a class="u-icon-v3 u-icon-size--sm g-color-gray-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-twitter"></i></a>
+                          <a class="u-icon-v3 u-icon-size--sm g-color-dark-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-twitter"></i></a>
                         </li>
                       </ul>
                       <!-- End Social Icons -->
@@ -333,8 +333,8 @@
 
                     <div class="col-md-4 g-mb-30 text-right">
                       <div class="d-inline-block g-mx-15">
-                        <h4 class="g-color-text g-font-size-11 text-left text-uppercase">Email</h4>
-                        <a href="#">info@prospercalgaryinitiative.com</a>
+                        <h4 class="g-color-dark-light-v1 g-font-size-11 text-left text-uppercase">Email</h4>
+                        <a href="#" class="g-color-dark-light-v1">info@prospercalgaryinitiative.com</a>
                       </div>
                       {{-- <div class="d-inline-block g-mx-15">
                         <h4 class="g-color-text g-font-size-11 text-left text-uppercase">Phone</h4>
