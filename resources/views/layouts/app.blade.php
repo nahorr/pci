@@ -111,7 +111,7 @@
 
                         <!-- About - Submenu -->
                         <li class="nav-item hs-has-sub-menu g-mx-15 g-mx-3--lg g-mb-5 g-mb-0--lg">
-                            <a id="nav-link--page" class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="{{route('frontend.useful.links')}}"
+                            <a id="nav-link--page" class="nav-link rounded g-color-primary--hover g-bg-transparent g-bg-main--hover g-font-weight-600 g-font-size-15 g-px-14 g-py-10" href="#"
                             aria-haspopup="true"
                             aria-expanded="false"
                             aria-controls="nav-submenu--page">
@@ -122,22 +122,22 @@
                             <ul id="nav-submenu--page" class="hs-sub-menu list-unstyled u-shadow-v11 g-min-width-220 g-mt-18"
                                 aria-labelledby="nav-link--page">
                             <li class="dropdown-item">
-                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#CalgaryToday">Calgary Today</a>
+                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.calgary-today')}}">Calgary Today</a>
                             </li>
                             <li class="dropdown-item">
-                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#WhatCalgariansWant">What Calgarians Want</a>
+                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.what-calgarians-want')}}">What Calgarians Want</a>
                             </li>
                             <li class="dropdown-item">
-                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#ACalgaryThatWorksForAll">A Calgary That Works For All</a>
+                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.calgary-that-works')}}">A Calgary That Works For All</a>
                             </li>
-                            <li class="dropdown-item">
+                            {{-- <li class="dropdown-item">
                                 <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#TheManforTheJob">The Man for The Job</a>
+                            </li> --}}
+                            <li class="dropdown-item">
+                                <a class="nav-link g-color-text g-font-weight-600" href="https://open.alberta.ca/dataset/630cdfa7-e052-4553-a073-6388097e744c/resource/256be2ba-2bf5-4f9d-ad20-2571a047387d/download/ma-third-party-advertising-guidelines-local-elections-alberta-2021.pdf" target="_blank">Candidates</a>
                             </li>
                             <li class="dropdown-item">
-                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#Candidates">Candidates</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a class="nav-link g-color-text g-font-weight-600" href="{{route('frontend.useful.links')}}#ElectionsCalgary">Elections Calgary</a>
+                                <a class="nav-link g-color-text g-font-weight-600" href="https://www.calgary.ca/election.html" target="_blank">Elections Calgary</a>
                             </li>
                             </ul>
                             <!-- End Submenu -->

@@ -42,6 +42,9 @@ Route::group(['namespace' => 'Frontend','as' => 'frontend.'], function () {
 
     //Useful Link
     Route::get('/useful-links', [UsefulLinksController::class, 'usefulLinks'])->name('useful.links');
+    Route::get('/calgary-today', [UsefulLinksController::class, 'calgaryToday'])->name('calgary-today');
+    Route::get('/what-calgarians-want', [UsefulLinksController::class, 'whatCalgariansWant'])->name('what-calgarians-want');
+    Route::get('/calgary-that-works', [UsefulLinksController::class, 'calgaryThatWorks'])->name('calgary-that-works');
 
 });
 

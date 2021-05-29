@@ -7,8 +7,18 @@ use Illuminate\Http\Request;
 
 class UsefulLinksController extends Controller
 {
-    public function usefulLinks()
+    public function calgaryToday()
     {
-        return view('frontend.useful-links');
+        return view('frontend.useful-links.calgary-today');
+    }
+
+    public function whatCalgariansWant()
+    {
+        return view('frontend.useful-links.what-calgarians-want');
+    }
+
+    public function calgaryThatWorks()
+    {
+        return view('frontend.useful-links.calgary-that-works');
     }
 }
