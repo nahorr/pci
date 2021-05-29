@@ -71,7 +71,7 @@
                 <div class="g-pr-40--lg">
                     <!-- Heading -->
                     <span class="d-block g-color-primary g-font-size-17 text-uppercase mb-4"><strong>Our Mission Statement </strong></span>
-                    <h2 class="h2 g-color-black g-font-weight-600 mb-4">Our mission is to Prosper Calgary Initiative (PCI)</h2>
+                    <h2 class="h2 g-color-black g-font-weight-600 mb-4">The mission of Prosper Calgary Initiative (PCI)</h2>
                     <p class="lead mb-5"> is to identify candidates of impeccable leadership ability, experience, and qualification for election into public offices in the Province of Alberta. We project and support worthy candidates for election into public office by engaging in political advertising to promote our selected candidates.</p>
                     <!-- End Heading -->
                 </div>
