@@ -19,10 +19,7 @@
                   are oriented for the benefit of all Calgarians.
                 </p>
               </div>
-              <a class="btn u-btn-primary g-brd-main--hover g-bg-main--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13 mr-3" href="{{route('frontend.volunteer')}}">
-                Volunteer
-                <i class="g-pos-rel g-top-minus-1 ml-2 fa fa-angle-right"></i>
-              </a>
+
               <a class="btn u-btn-black g-brd-main g-brd-primary--hover g-bg-main g-bg-primary--hover g-font-weight-600 g-font-size-12 text-uppercase g-px-25 g-py-13" href="{{route('frontend.donate')}}">
                 Donate
                 <i class="g-pos-rel g-top-minus-1 ml-2 fa fa-angle-right"></i>
@@ -35,26 +32,6 @@
         </div>
       </div>
       <!-- End Promo Block -->
-
-      <section class="g-bg-gray-light-v5">
-        <div class="container g-py-100">
-          <div class="row justify-content-center g-mb-110">
-            <div class="col-lg-8">
-              <!-- Heading -->
-              <div class="text-center">
-                <h2 class="h1 g-color-black g-font-weight-600 mb-5">Prosper Calgary Initiative<br>a Third Party Advertisement Group</h2>
-                <p class="lead mb-5"> registered with
-                    the City Of Calgary to participate in the 2021 Municipal Elections. We are a group made up of
-                    Calgarians of diverse professional practice, origin, creed, and gender. We seek to support
-                    candidates for Calgary’s municipal Election 2021, whose political agenda, we believe,
-                    are oriented for the benefit of all Calgarians.</p>
-                <a class="btn btn-xl u-btn-outline-black g-font-weight-600 g-font-size-default g-px-35" href="#">Explore more</a>
-              </div>
-              <!-- End Heading -->
-            </div>
-          </div>
-        </div>
-    </section>
 
     <div class="dzsparallaxer auto-init height-is-based-on-content g-bg-gray-gradient-opacity-v1" data-options='{direction: "reverse", animation_duration: "200"}'>
         <div class="dzsparallaxer--target" style="width: 100%; height: 130%;">
