@@ -153,20 +153,20 @@
                     <!-- Social Icons -->
                     <ul class="col-auto list-inline g-pos-abs g-right-0 g-pos-rel--lg g-top-minus-3 g-py-20 g-py-6--lg g-pr-5 g-mr-60 g-mr-0--lg ml-auto ml-lg-0 mb-0">
                       <li class="list-inline-item g-mx-0">
-                        <a class="u-icon-v3 u-icon-size--xs g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-facebook"></i></a>
+                        <a class="u-icon-v3 u-icon-size--xs g-bg-transparent g-bg-main--hover rounded" href="https://www.facebook.com/Prosper-Calgary-Initiative-102207262072405" target="_blank"><i class="fa fa-facebook"></i></a>
                       </li>
                       <li class="list-inline-item g-mx-0">
-                        <a class="u-icon-v3 u-icon-size--xs g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-twitter"></i></a>
+                        <a class="u-icon-v3 u-icon-size--xs g-bg-transparent g-bg-main--hover rounded" href="https://twitter.com/CalgaryProsper" target="_blank"><i class="fa fa-twitter"></i></a>
                       </li>
                       <li class="list-inline-item g-mx-0">
-                        <a class="u-icon-v3 u-icon-size--xs g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-pinterest"></i></a>
+                        <a class="u-icon-v3 u-icon-size--xs g-bg-transparent g-bg-main--hover rounded" href="https://www.instagram.com/prospercalgaryinitiative/" target="_blank"><i class="fa fa-instagram"></i></a>
                       </li>
                     </ul>
                     <!-- End Social Icons -->
 
                     <div class="col-auto g-hidden-md-down g-pr-0">
                       <div class="g-bg-main g-cursor-pointer g-px-25 g-py-20">
-                        <span class="d-block g-color-primary g-font-size-11 mb-1"><strong>(0161) 347 8854</strong></span>
+                        <span class="d-block g-color-primary g-font-size-11 mb-1"><strong>403-463-2261 <br> 403-383-4817</strong></span>
                         <span class="d-block g-color-primary"><i class="mr-2 fa fa-phone"></i><strong>Call Us</strong></span>
                       </div>
                     </div>
@@ -305,11 +305,14 @@
                       <!-- Social Icons -->
                       <ul class="list-inline text-center mb-0">
                         <li class="list-inline-item">
-                          <a class="u-icon-v3 u-icon-size--sm g-color-dark-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-facebook"></i></a>
+                          <a class="u-icon-v3 u-icon-size--sm g-color-dark-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="https://www.facebook.com/Prosper-Calgary-Initiative-102207262072405" target="_blank"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li class="list-inline-item">
-                          <a class="u-icon-v3 u-icon-size--sm g-color-dark-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="#"><i class="fa fa-twitter"></i></a>
+                          <a class="u-icon-v3 u-icon-size--sm g-color-dark-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="https://twitter.com/CalgaryProsper" target="_blank"><i class="fa fa-twitter"></i></a>
                         </li>
+                        <li class="list-inline-item">
+                            <a class="u-icon-v3 u-icon-size--sm g-color-dark-light-v1 g-color-primary--hover g-bg-transparent g-bg-main--hover rounded" href="https://www.instagram.com/prospercalgaryinitiative/" target="_blank"><i class="fa fa-instagram"></i></a>
+                          </li>
                       </ul>
                       <!-- End Social Icons -->
                     </div>
