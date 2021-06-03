@@ -8,7 +8,7 @@
 
                 <div class="col-md-6 col-lg-6 g-mb-90">
                     <!-- Join Form -->
-                    <form class="g-bg-white rounded g-px-30 g-py-40" method="POST" action="{{route('frontend.donate.payment')}}">
+                    <form class="g-bg-white rounded g-px-30 g-py-40" method="POST" action="{{route('frontend.donate.intent')}}">
                         @csrf()
                         <div class="text-center">
                             <a class="navbar-brand g-pl-15 py-3" href="{{route('frontend.home')}}">
