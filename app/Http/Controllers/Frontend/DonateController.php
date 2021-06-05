@@ -44,7 +44,13 @@ class DonateController extends Controller
 
         Session::flash('success', 'Payment successfully made.');
 
-        return back();
+        return redirect(route('frontend.thank-you'));
+    }
+
+    public function thankYou()
+    {
+
+        return view('frontend.thank-you');
     }
 }
 

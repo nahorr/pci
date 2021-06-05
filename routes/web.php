@@ -41,6 +41,7 @@ Route::group(['namespace' => 'Frontend','as' => 'frontend.'], function () {
     Route::post('/donate/intent', [DonateController::class, 'intent'])->name('donate.intent');
     Route::get('/make/donation/{amt}/{description}', [DonateController::class, 'makeDonation'])->name('make.donation');
     Route::post('/transaction', [DonateController::class, 'makePayment'])->name('make-payment');
+    Route::get('/thank-you', [DonateController::class, 'thankYou'])->name('thank-you');
 
     //Useful Link
     Route::get('/useful-links', [UsefulLinksController::class, 'usefulLinks'])->name('useful.links');
