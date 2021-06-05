@@ -53,7 +53,7 @@
 
               <div class="col-md-7">
                 <!-- Consultants Content -->
-                <h3 class="h5">Dr. Emeka Dean Nwakanma</h3>
+                <h3 class="h5">Dr. Emeka Dean Nwakanma <br> <small class="text-muted">Chief Financial Officer</small></h3>
                 <p class="g-line-height-2">
                     Dr. Nwakanma is an academic, Journeyman tradesperson, loving husband, father, and community leader.
                     He earned his doctorate degree (Library and Information Management) in 2008 from the prestigious McGill University, Montreal.
@@ -99,7 +99,7 @@
 
               <div class="col-md-7">
                 <!-- Consultants Content -->
-                <h3 class="h5">Debbie Jackman</h3>
+                <h3 class="h5">Debbie Jackman <br> <small class="text-muted">Coordinator</small></h3>
                 <p class="g-line-height-2">
                   Debbie Jackman is a native Calgarian, born and raised in the southeast. Graduate of Lord Beaverbrook, home of the Lord's and SAIT. 
                   Currently working in oil and gas. An independent financial advisor.  Previously having worked with the City of Calgary and

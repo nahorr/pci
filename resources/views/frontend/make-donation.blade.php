@@ -22,7 +22,7 @@
                             <a href="{{route('frontend.home')}}">
                                 <img class='class="media-object' src="{{asset('assets-theme/img/logo/logo.png')}}" alt="PCI" width="100px" height="60px">
                             </a>
-                            <h2>Donate to PCI</h2>
+                            <h2>You are donating ${{$amount}} to PCI</h2>
                         </div>
 
 
@@ -86,6 +86,10 @@
                                 <button class="btn btn-success btn-lg btn-block" type="submit">
                                     <strong>Donate ${{$amount}}</strong>
                                 </button>
+                            </div>
+                            <hr>
+                            <div class='form-row row text-center'>
+                                <img  class="" src="{{asset('assets/img/stripe.png')}}" alt="stripe" width="480px" height="100px">
                             </div>
 
                         </form>
