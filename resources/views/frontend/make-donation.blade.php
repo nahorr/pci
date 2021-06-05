@@ -89,7 +89,7 @@
                             </div>
                             <hr>
                             <div class='form-row row text-center'>
-                                <img  class="" src="{{asset('assets/img/stripe.png')}}" alt="stripe" width="480px" height="100px">
+                                <img  class="img-fluid" src="{{asset('assets/img/stripe.png')}}" alt="stripe" width="480px" height="100px">
                             </div>
 
                         </form>
