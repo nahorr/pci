@@ -2,7 +2,8 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>PCI Strip Donation</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
@@ -90,7 +91,7 @@
                             </div>
                             <hr>
                             <div class="form-group">
-                                <img  class="img-fluid" src="{{asset('assets/img/stripe.png')}}" alt="stripe" width="480px" height="100px">
+                                <img  class="img-responsive" src="{{asset('assets/img/stripe.png')}}" alt="stripe" width="480px" height="100px">
                             </div>
 
                         </form>
