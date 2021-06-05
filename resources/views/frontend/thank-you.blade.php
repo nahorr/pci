@@ -18,7 +18,7 @@
                             <div class="media-body">
 
 
-                                <strong class="h3">Thank for donating to ProsperCalgaryInitiative. <br> We appreciate your support!</strong>
+                                <strong class="h3">Thank you for donating to ProsperCalgaryInitiative. <br> We appreciate your support!</strong>
 
 
                             </div>
