@@ -29,6 +29,14 @@
                     </div>
 
                     <div class="form-group">
+                        <label for="exampleFormControlTextarea1"><strong class="h3">Full Name</strong></label>
+                        <input class="form-control rounded g-px-20 g-py-12 mb-3" type="text" name="name" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"><strong class="h3">Email</strong></label>
+                        <input class="form-control rounded g-px-20 g-py-12 mb-3" type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
                         <label for="exampleFormControlTextarea1"><strong class="h3">Ammout In CAD</strong></label>
                         <input class="form-control rounded g-px-20 g-py-12 mb-3" type="number" name="amount" placeholder="Enter Donation Amount" required>
                     </div>

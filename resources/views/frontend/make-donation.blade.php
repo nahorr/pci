@@ -24,7 +24,7 @@
                             <a href="{{route('frontend.home')}}">
                                 <img class='class="media-object' src="{{asset('assets-theme/img/logo/logo.png')}}" alt="PCI" width="100px" height="60px">
                             </a>
-                            <h2>You are donating ${{$amount}} to PCI</h2>
+                            <h2><strong>Hi {{$name}}.</strong> <br><span class="mt-1">You are donating ${{$amount}} to PCI.</span></h2>
                         </div>
 
 
@@ -45,8 +45,10 @@
                             id="stripe-payment">
                             @csrf
 
+                            <input type="hidden" name="name" value="{{$name}}">
+                            <input type="hidden" name="email" value="{{$email}}">
                             <input type="hidden" name="amount" value="{{$amount}}">
-                            <input type="hidden" name="description" value="{{$amount}}">
+                            <input type="hidden" name="note" value="{{$note}}">
 
                             <div class='form-row row'>
                                 <div class='col-xs-12 form-group required'>
