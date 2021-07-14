@@ -44,7 +44,7 @@ class DonationNotification extends Notification
     {
         return (new MailMessage)
                     ->subject('Thank You For Your Donation!')
-                    ->line('We received your $'.$this->donation_data['amount'].' donation')
+                    ->line('This is to let you know that We received your $'.$this->donation_data['amount'].' donation.')
                     ->line('Thank you!');
     }
 

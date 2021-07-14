@@ -43,6 +43,7 @@ class DonationSuccessful extends Notification
     public function toMail($notifiable)
     {
         return (new MailMessage)
+                    ->subject('A new donation from '.$this->donation_data['name'])
                     ->line('A new donation from '.$this->donation_data['name'])
                     ->line('Name: '.$this->donation_data['name'])
                     ->line('Email: '.$this->donation_data['email'])
