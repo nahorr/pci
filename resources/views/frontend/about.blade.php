@@ -70,7 +70,7 @@
         <!-- End Accordion -->
       </div>
 
-      <div class="col-lg-6 g-mb-60">
+      {{-- <div class="col-lg-6 g-mb-60">
         <!-- Accordion -->
         <div id="accordion-12-2" class="u-accordion u-accordion-color-primary" role="tablist" aria-multiselectable="true">
           <!-- Card -->
@@ -116,7 +116,7 @@
           <!-- End Card -->
         </div>
         <!-- End Accordion -->
-      </div>
+      </div> --}}
 
       <div class="w-100 g-mb-30"></div>
 
