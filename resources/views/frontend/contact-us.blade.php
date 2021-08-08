@@ -28,7 +28,7 @@
                   <i class="icon-communication-062 u-line-icon-pro"></i>
                 </span>
               <h4 class="h5 g-font-weight-600 g-mb-5">Phone Number</h4>
-              <span class="d-block">403-463-2261 <br> 403-383-4817</span>
+              <span class="d-block">403-383-4817 <br> </span>
             </div>
             <!-- End Icon Blocks -->
           </div>
@@ -40,7 +40,7 @@
                   <i class="icon-electronics-005 u-line-icon-pro"></i>
                 </span>
               <h4 class="h5 g-font-weight-600 g-mb-5">Email</h4>
-              <span class="d-block">info@prospercalgaryinitiative.com</span>
+              <span class="d-block">initiative@gmail.com</span>
             </div>
             <!-- End Icon Blocks -->
           </div>

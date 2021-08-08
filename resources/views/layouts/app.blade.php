@@ -166,7 +166,7 @@
 
                     <div class="col-auto g-hidden-md-down g-pr-0">
                       <div class="g-bg-main g-cursor-pointer g-px-25 g-py-20">
-                        <span class="d-block g-color-primary g-font-size-11 mb-1"><strong>403-463-2261 <br> 403-383-4817</strong></span>
+                        <span class="d-block g-color-primary g-font-size-11 mb-1"><strong>403-383-4817 <br> </strong></span>
                         <span class="d-block g-color-primary"><i class="mr-2 fa fa-phone"></i><strong>Call Us</strong></span>
                       </div>
                     </div>
@@ -320,7 +320,7 @@
                     <div class="col-md-4 g-mb-30 text-right">
                       <div class="d-inline-block g-mx-15">
                         <h4 class="g-color-dark-light-v1 g-font-size-11 text-left text-uppercase">Email</h4>
-                        <a href="#" class="g-color-dark-light-v1">info@prospercalgaryinitiative.com</a>
+                        <a href="#" class="g-color-dark-light-v1">initiative@gmail.com</a>
                       </div>
                       {{-- <div class="d-inline-block g-mx-15">
                         <h4 class="g-color-text g-font-size-11 text-left text-uppercase">Phone</h4>
