@@ -40,7 +40,7 @@
                   <i class="icon-electronics-005 u-line-icon-pro"></i>
                 </span>
               <h4 class="h5 g-font-weight-600 g-mb-5">Email</h4>
-              <span class="d-block">initiative@gmail.com</span>
+              <span class="d-block">prospercalgaryinitiative@gmail.com</span>
             </div>
             <!-- End Icon Blocks -->
           </div>

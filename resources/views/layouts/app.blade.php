@@ -320,7 +320,7 @@
                     <div class="col-md-4 g-mb-30 text-right">
                       <div class="d-inline-block g-mx-15">
                         <h4 class="g-color-dark-light-v1 g-font-size-11 text-left text-uppercase">Email</h4>
-                        <a href="#" class="g-color-dark-light-v1">initiative@gmail.com</a>
+                        <a href="#" class="g-color-dark-light-v1">prospercalgaryinitiative@gmail.com</a>
                       </div>
                       {{-- <div class="d-inline-block g-mx-15">
                         <h4 class="g-color-text g-font-size-11 text-left text-uppercase">Phone</h4>
